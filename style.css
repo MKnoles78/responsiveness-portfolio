@@ -1,7 +1,19 @@
+.navbar {
+    padding: 0px;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
 .navbar-brand {    
-    background-color: #17a2b8;
-    padding: 25px 10px;
+    background-color: #34ACA6;
+    padding: 25px 20px;
+    margin-left: 50px;
+    fill: auto;
     }
+
 li, a {
     font-weight: 500px;
     color: grey; 
@@ -14,7 +26,7 @@ li, a {
 .nav_links li {
     display: inline;
     padding: 0px 20px;
-    
+    margin-right: 50px;  
     
 }
 .nav_links a{
@@ -25,4 +37,22 @@ li, a {
 .nav_links a:hover {
     color: blue;
     
+}
+
+.contactfield {
+    background-color: grey;
+    margin-top: 50px;
+    width: 500px; 
+    padding: 25px 20px;
+    margin-left: 50px;
+    
+}
+
+
+.card-body{
+    margin-bottom: 7rem;
+
+}
+.submitbutton{
+    margin-top: 20px;
 }
