@@ -1,10 +1,9 @@
-body {
+body, html {
     background-color: rgb(0, 0, 0);
     background-image: url(http://www.zingerbugimages.com/backgrounds/white_construction_paper_seamless.jpg);
     background-position: top left;
     background-repeat: repeat;
-    background-attachment: fixed;
-    margin-bottom: 10rem;
+    background-attachment: fixed; 
     
   }
  
@@ -79,4 +78,20 @@ textarea{
 }
 .submitbutton{
     margin-top: 20px;
+
+}
+#spaceholder{
+    padding: 20px;
+    margin: 100px 0px;
+}
+#footerdetails {
+    position: relative;
+    padding: 20px;
+    margin: 20px 0px;
+    text-align: center;
+    background-color: gray;
+    border-top: 4px solid #34ACA6;
+    color: white;
+   
+    
 }
