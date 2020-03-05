@@ -57,9 +57,11 @@ li, a {
     color: grey;
     background-color: white;
     margin-top: 50px;
-    width: 500px; 
+    width: 475px; 
     padding: 25px 20px;
-    margin-left: 50px;   
+    margin-left: 50px;  
+    margin-bottom: 100px;
+    
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -76,22 +78,55 @@ textarea{
     padding: 6px 12px;
 
 }
-.submitbutton{
-    margin-top: 20px;
 
+.btn-primary {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #34ACA6;
+    border-color: #34ACA6;
 }
-#spaceholder{
+ #spaceholder{
     padding: 20px;
     margin: 100px 0px;
 }
-#footerdetails {
-    position: relative;
+
+.container-index{
+    border: 1px solid grey;
+    color: grey;
+    background-color: white;
+    margin-top: 50px;
+    width: auto;
+    padding: 25px 20px;
+    margin-bottom: 100px;
+
+    
+}
+
+#catpic {
+    padding-right: 10px;
+    height: 165px;
+    width: 215px;
+    float: left;
+}
+
+    
+}
+#stockphotos {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+}
+.footer {
+    position: absolute;
+    line-height: 60px;
+    width: 100%;
     padding: 20px;
-    margin: 20px 0px;
+    margin-top: 60px;
     text-align: center;
     background-color: gray;
     border-top: 4px solid #34ACA6;
-    color: white;
-   
-    
+    color: white 
+
 }
+ 
