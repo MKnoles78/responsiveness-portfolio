@@ -72,7 +72,7 @@ h2{
 
 textarea{
     border: 1px solid lightgrey;
-    width: 460px;
+    width: 435px;
     height: 200px;
     color: grey;
     padding: 6px 12px;
@@ -95,11 +95,19 @@ textarea{
     color: grey;
     background-color: white;
     margin-top: 50px;
-    width: auto;
+    width: 500px;
     padding: 25px 20px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; 
+    margin-left: 45px; 
+}
 
-    
+.portfolio-index{
+    border: 1px solid grey;
+    color: grey;
+    background-color: white;
+    width: 675px;
+    padding: 20px 60px;
+    margin: 50px 45px 100px 45px;  
 }
 
 #catpic {
@@ -109,11 +117,9 @@ textarea{
     float: left;
 }
 
-    
-}
 #stockphotos {
-    height: 300px;
-    width: 300px;
+    height: 295px;
+    width: 295px;
     padding: 10px;
 
 }
